@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A44860451C8C432400E40863 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44860441C8C432400E40863 /* AppDelegate.swift */; };
+		A44860471C8C432400E40863 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A44860461C8C432400E40863 /* GameScene.sks */; };
+		A44860491C8C432400E40863 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44860481C8C432400E40863 /* GameScene.swift */; };
+		A448604B1C8C432400E40863 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A448604A1C8C432400E40863 /* GameViewController.swift */; };
+		A448604E1C8C432400E40863 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A448604C1C8C432400E40863 /* Main.storyboard */; };
+		A44860501C8C432400E40863 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A448604F1C8C432400E40863 /* Assets.xcassets */; };
+		A44860531C8C432400E40863 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A44860511C8C432400E40863 /* LaunchScreen.storyboard */; };
+		A448605E1C8C432400E40863 /* TrudgiumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A448605D1C8C432400E40863 /* TrudgiumTests.swift */; };
+		A44860691C8C432400E40863 /* TrudgiumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44860681C8C432400E40863 /* TrudgiumUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A448605A1C8C432400E40863 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A44860391C8C432400E40863 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A44860401C8C432400E40863;
+			remoteInfo = Trudgium;
+		};
+		A44860651C8C432400E40863 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A44860391C8C432400E40863 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A44860401C8C432400E40863;
+			remoteInfo = Trudgium;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A44860411C8C432400E40863 /* Trudgium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trudgium.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A44860441C8C432400E40863 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A44860461C8C432400E40863 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		A44860481C8C432400E40863 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		A448604A1C8C432400E40863 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		A448604D1C8C432400E40863 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A448604F1C8C432400E40863 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A44860521C8C432400E40863 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A44860541C8C432400E40863 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A44860591C8C432400E40863 /* TrudgiumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrudgiumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A448605D1C8C432400E40863 /* TrudgiumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrudgiumTests.swift; sourceTree = "<group>"; };
+		A448605F1C8C432400E40863 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A44860641C8C432400E40863 /* TrudgiumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrudgiumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A44860681C8C432400E40863 /* TrudgiumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrudgiumUITests.swift; sourceTree = "<group>"; };
+		A448606A1C8C432400E40863 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A448603E1C8C432400E40863 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A44860561C8C432400E40863 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A44860611C8C432400E40863 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A44860381C8C432400E40863 = {
+			isa = PBXGroup;
+			children = (
+				A44860431C8C432400E40863 /* Trudgium */,
+				A448605C1C8C432400E40863 /* TrudgiumTests */,
+				A44860671C8C432400E40863 /* TrudgiumUITests */,
+				A44860421C8C432400E40863 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A44860421C8C432400E40863 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A44860411C8C432400E40863 /* Trudgium.app */,
+				A44860591C8C432400E40863 /* TrudgiumTests.xctest */,
+				A44860641C8C432400E40863 /* TrudgiumUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A44860431C8C432400E40863 /* Trudgium */ = {
+			isa = PBXGroup;
+			children = (
+				A44860441C8C432400E40863 /* AppDelegate.swift */,
+				A44860461C8C432400E40863 /* GameScene.sks */,
+				A44860481C8C432400E40863 /* GameScene.swift */,
+				A448604A1C8C432400E40863 /* GameViewController.swift */,
+				A448604C1C8C432400E40863 /* Main.storyboard */,
+				A448604F1C8C432400E40863 /* Assets.xcassets */,
+				A44860511C8C432400E40863 /* LaunchScreen.storyboard */,
+				A44860541C8C432400E40863 /* Info.plist */,
+			);
+			path = Trudgium;
+			sourceTree = "<group>";
+		};
+		A448605C1C8C432400E40863 /* TrudgiumTests */ = {
+			isa = PBXGroup;
+			children = (
+				A448605D1C8C432400E40863 /* TrudgiumTests.swift */,
+				A448605F1C8C432400E40863 /* Info.plist */,
+			);
+			path = TrudgiumTests;
+			sourceTree = "<group>";
+		};
+		A44860671C8C432400E40863 /* TrudgiumUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A44860681C8C432400E40863 /* TrudgiumUITests.swift */,
+				A448606A1C8C432400E40863 /* Info.plist */,
+			);
+			path = TrudgiumUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A44860401C8C432400E40863 /* Trudgium */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A448606D1C8C432400E40863 /* Build configuration list for PBXNativeTarget "Trudgium" */;
+			buildPhases = (
+				A448603D1C8C432400E40863 /* Sources */,
+				A448603E1C8C432400E40863 /* Frameworks */,
+				A448603F1C8C432400E40863 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Trudgium;
+			productName = Trudgium;
+			productReference = A44860411C8C432400E40863 /* Trudgium.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A44860581C8C432400E40863 /* TrudgiumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A44860701C8C432400E40863 /* Build configuration list for PBXNativeTarget "TrudgiumTests" */;
+			buildPhases = (
+				A44860551C8C432400E40863 /* Sources */,
+				A44860561C8C432400E40863 /* Frameworks */,
+				A44860571C8C432400E40863 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A448605B1C8C432400E40863 /* PBXTargetDependency */,
+			);
+			name = TrudgiumTests;
+			productName = TrudgiumTests;
+			productReference = A44860591C8C432400E40863 /* TrudgiumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A44860631C8C432400E40863 /* TrudgiumUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A44860731C8C432400E40863 /* Build configuration list for PBXNativeTarget "TrudgiumUITests" */;
+			buildPhases = (
+				A44860601C8C432400E40863 /* Sources */,
+				A44860611C8C432400E40863 /* Frameworks */,
+				A44860621C8C432400E40863 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A44860661C8C432400E40863 /* PBXTargetDependency */,
+			);
+			name = TrudgiumUITests;
+			productName = TrudgiumUITests;
+			productReference = A44860641C8C432400E40863 /* TrudgiumUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A44860391C8C432400E40863 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ridge_works;
+				TargetAttributes = {
+					A44860401C8C432400E40863 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 27CC7Y5XZR;
+					};
+					A44860581C8C432400E40863 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 27CC7Y5XZR;
+						TestTargetID = A44860401C8C432400E40863;
+					};
+					A44860631C8C432400E40863 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 27CC7Y5XZR;
+						TestTargetID = A44860401C8C432400E40863;
+					};
+				};
+			};
+			buildConfigurationList = A448603C1C8C432400E40863 /* Build configuration list for PBXProject "Trudgium" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A44860381C8C432400E40863;
+			productRefGroup = A44860421C8C432400E40863 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A44860401C8C432400E40863 /* Trudgium */,
+				A44860581C8C432400E40863 /* TrudgiumTests */,
+				A44860631C8C432400E40863 /* TrudgiumUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A448603F1C8C432400E40863 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A44860471C8C432400E40863 /* GameScene.sks in Resources */,
+				A44860531C8C432400E40863 /* LaunchScreen.storyboard in Resources */,
+				A44860501C8C432400E40863 /* Assets.xcassets in Resources */,
+				A448604E1C8C432400E40863 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A44860571C8C432400E40863 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A44860621C8C432400E40863 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A448603D1C8C432400E40863 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A44860491C8C432400E40863 /* GameScene.swift in Sources */,
+				A448604B1C8C432400E40863 /* GameViewController.swift in Sources */,
+				A44860451C8C432400E40863 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A44860551C8C432400E40863 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A448605E1C8C432400E40863 /* TrudgiumTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A44860601C8C432400E40863 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A44860691C8C432400E40863 /* TrudgiumUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A448605B1C8C432400E40863 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A44860401C8C432400E40863 /* Trudgium */;
+			targetProxy = A448605A1C8C432400E40863 /* PBXContainerItemProxy */;
+		};
+		A44860661C8C432400E40863 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A44860401C8C432400E40863 /* Trudgium */;
+			targetProxy = A44860651C8C432400E40863 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A448604C1C8C432400E40863 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A448604D1C8C432400E40863 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A44860511C8C432400E40863 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A44860521C8C432400E40863 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A448606B1C8C432400E40863 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A448606C1C8C432400E40863 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A448606E1C8C432400E40863 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Trudgium/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ridge-works.Trudgium";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A448606F1C8C432400E40863 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Trudgium/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ridge-works.Trudgium";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A44860711C8C432400E40863 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = TrudgiumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ridge-works.TrudgiumTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trudgium.app/Trudgium";
+			};
+			name = Debug;
+		};
+		A44860721C8C432400E40863 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TrudgiumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ridge-works.TrudgiumTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trudgium.app/Trudgium";
+			};
+			name = Release;
+		};
+		A44860741C8C432400E40863 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = TrudgiumUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ridge-works.TrudgiumUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Trudgium;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A44860751C8C432400E40863 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TrudgiumUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ridge-works.TrudgiumUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Trudgium;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A448603C1C8C432400E40863 /* Build configuration list for PBXProject "Trudgium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A448606B1C8C432400E40863 /* Debug */,
+				A448606C1C8C432400E40863 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A448606D1C8C432400E40863 /* Build configuration list for PBXNativeTarget "Trudgium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A448606E1C8C432400E40863 /* Debug */,
+				A448606F1C8C432400E40863 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A44860701C8C432400E40863 /* Build configuration list for PBXNativeTarget "TrudgiumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A44860711C8C432400E40863 /* Debug */,
+				A44860721C8C432400E40863 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A44860731C8C432400E40863 /* Build configuration list for PBXNativeTarget "TrudgiumUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A44860741C8C432400E40863 /* Debug */,
+				A44860751C8C432400E40863 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A44860391C8C432400E40863 /* Project object */;
+}
