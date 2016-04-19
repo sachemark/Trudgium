@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A4073EAD1CA2A6670011B3FC /* ActClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4073EAC1CA2A6670011B3FC /* ActClasses.swift */; };
 		A44860451C8C432400E40863 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44860441C8C432400E40863 /* AppDelegate.swift */; };
 		A44860471C8C432400E40863 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A44860461C8C432400E40863 /* GameScene.sks */; };
 		A44860491C8C432400E40863 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44860481C8C432400E40863 /* GameScene.swift */; };
@@ -16,6 +17,17 @@
 		A44860531C8C432400E40863 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A44860511C8C432400E40863 /* LaunchScreen.storyboard */; };
 		A448605E1C8C432400E40863 /* TrudgiumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A448605D1C8C432400E40863 /* TrudgiumTests.swift */; };
 		A44860691C8C432400E40863 /* TrudgiumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44860681C8C432400E40863 /* TrudgiumUITests.swift */; };
+		A44860781C8C439700E40863 /* Other.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44860771C8C439700E40863 /* Other.swift */; };
+		A448607A1C8C43E700E40863 /* Useful_Classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44860791C8C43E700E40863 /* Useful_Classes.swift */; };
+		A448607C1C8C441100E40863 /* Useful_funcs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A448607B1C8C441100E40863 /* Useful_funcs.swift */; };
+		A448607F1C8C442C00E40863 /* Cells.swift in Sources */ = {isa = PBXBuildFile; fileRef = A448607E1C8C442C00E40863 /* Cells.swift */; };
+		A44860811C8E26FD00E40863 /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44860801C8E26FD00E40863 /* Cache.swift */; };
+		A44860831C8E270B00E40863 /* District.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44860821C8E270B00E40863 /* District.swift */; };
+		A4BEEBF11C9294FA00EBA22B /* Barriers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BEEBF01C9294FA00EBA22B /* Barriers.swift */; };
+		A4BEEBF51C92953C00EBA22B /* Creatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BEEBF41C92953C00EBA22B /* Creatures.swift */; };
+		A4BEEBF71C92958900EBA22B /* GameField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4BEEBF61C92958900EBA22B /* GameField.swift */; };
+		A4E95C511C94A00600C2C845 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E95C501C94A00600C2C845 /* Storage.swift */; };
+		A4F7AF141C955580003C9B40 /* OverCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F7AF131C955580003C9B40 /* OverCells.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +48,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A4073EAC1CA2A6670011B3FC /* ActClasses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActClasses.swift; sourceTree = "<group>"; };
 		A44860411C8C432400E40863 /* Trudgium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trudgium.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A44860441C8C432400E40863 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A44860461C8C432400E40863 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -51,6 +64,17 @@
 		A44860641C8C432400E40863 /* TrudgiumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrudgiumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A44860681C8C432400E40863 /* TrudgiumUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrudgiumUITests.swift; sourceTree = "<group>"; };
 		A448606A1C8C432400E40863 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A44860771C8C439700E40863 /* Other.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Other.swift; sourceTree = "<group>"; };
+		A44860791C8C43E700E40863 /* Useful_Classes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Useful_Classes.swift; sourceTree = "<group>"; };
+		A448607B1C8C441100E40863 /* Useful_funcs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Useful_funcs.swift; sourceTree = "<group>"; };
+		A448607E1C8C442C00E40863 /* Cells.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cells.swift; sourceTree = "<group>"; };
+		A44860801C8E26FD00E40863 /* Cache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cache.swift; sourceTree = "<group>"; };
+		A44860821C8E270B00E40863 /* District.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = District.swift; sourceTree = "<group>"; };
+		A4BEEBF01C9294FA00EBA22B /* Barriers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Barriers.swift; sourceTree = "<group>"; };
+		A4BEEBF41C92953C00EBA22B /* Creatures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Creatures.swift; sourceTree = "<group>"; };
+		A4BEEBF61C92958900EBA22B /* GameField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameField.swift; sourceTree = "<group>"; };
+		A4E95C501C94A00600C2C845 /* Storage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		A4F7AF131C955580003C9B40 /* OverCells.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverCells.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +105,8 @@
 		A44860381C8C432400E40863 = {
 			isa = PBXGroup;
 			children = (
+				A448607D1C8C441600E40863 /* Game classes */,
+				A44860761C8C436B00E40863 /* USEFUL */,
 				A44860431C8C432400E40863 /* Trudgium */,
 				A448605C1C8C432400E40863 /* TrudgiumTests */,
 				A44860671C8C432400E40863 /* TrudgiumUITests */,
@@ -129,6 +155,32 @@
 				A448606A1C8C432400E40863 /* Info.plist */,
 			);
 			path = TrudgiumUITests;
+			sourceTree = "<group>";
+		};
+		A44860761C8C436B00E40863 /* USEFUL */ = {
+			isa = PBXGroup;
+			children = (
+				A44860771C8C439700E40863 /* Other.swift */,
+				A44860791C8C43E700E40863 /* Useful_Classes.swift */,
+				A448607B1C8C441100E40863 /* Useful_funcs.swift */,
+				A4E95C501C94A00600C2C845 /* Storage.swift */,
+			);
+			name = USEFUL;
+			sourceTree = "<group>";
+		};
+		A448607D1C8C441600E40863 /* Game classes */ = {
+			isa = PBXGroup;
+			children = (
+				A448607E1C8C442C00E40863 /* Cells.swift */,
+				A44860801C8E26FD00E40863 /* Cache.swift */,
+				A44860821C8E270B00E40863 /* District.swift */,
+				A4BEEBF01C9294FA00EBA22B /* Barriers.swift */,
+				A4BEEBF41C92953C00EBA22B /* Creatures.swift */,
+				A4BEEBF61C92958900EBA22B /* GameField.swift */,
+				A4F7AF131C955580003C9B40 /* OverCells.swift */,
+				A4073EAC1CA2A6670011B3FC /* ActClasses.swift */,
+			);
+			name = "Game classes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,9 +318,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4BEEBF51C92953C00EBA22B /* Creatures.swift in Sources */,
+				A4E95C511C94A00600C2C845 /* Storage.swift in Sources */,
+				A4073EAD1CA2A6670011B3FC /* ActClasses.swift in Sources */,
 				A44860491C8C432400E40863 /* GameScene.swift in Sources */,
+				A448607F1C8C442C00E40863 /* Cells.swift in Sources */,
+				A44860811C8E26FD00E40863 /* Cache.swift in Sources */,
+				A4BEEBF11C9294FA00EBA22B /* Barriers.swift in Sources */,
+				A448607A1C8C43E700E40863 /* Useful_Classes.swift in Sources */,
+				A4BEEBF71C92958900EBA22B /* GameField.swift in Sources */,
 				A448604B1C8C432400E40863 /* GameViewController.swift in Sources */,
+				A4F7AF141C955580003C9B40 /* OverCells.swift in Sources */,
+				A44860781C8C439700E40863 /* Other.swift in Sources */,
 				A44860451C8C432400E40863 /* AppDelegate.swift in Sources */,
+				A44860831C8E270B00E40863 /* District.swift in Sources */,
+				A448607C1C8C441100E40863 /* Useful_funcs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +475,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Trudgium/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ridge-works.Trudgium";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -422,6 +487,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Trudgium/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ridge-works.Trudgium";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -497,6 +563,7 @@
 				A448606F1C8C432400E40863 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A44860701C8C432400E40863 /* Build configuration list for PBXNativeTarget "TrudgiumTests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +572,7 @@
 				A44860721C8C432400E40863 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A44860731C8C432400E40863 /* Build configuration list for PBXNativeTarget "TrudgiumUITests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +581,7 @@
 				A44860751C8C432400E40863 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
