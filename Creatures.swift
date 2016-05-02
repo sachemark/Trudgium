@@ -20,6 +20,8 @@ class Creat: SKSN {
     var spd = NSTimeInterval(0.3) // speed of creat
     var active = true
     
+    var type = -1 // MrGeorgeous Commit 2/5/16
+    
     func bSet() {
         anchorPoint = CGP(x: 0, y: 0)
         zPosition = 4
@@ -65,12 +67,12 @@ class Creat: SKSN {
 
 class Player : Creat {
     
-    
     override init() {
         super.init()
     }
     init(currPos: Int) {
         super.init(currPos: currPos, img: "player")
+        self.type = 0
     }
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
@@ -82,8 +84,8 @@ class StrelCreat: Creat {
     var farn: CGF
     
     init(farn: CGF, endPos: Int, currPos: Int) {
-        
         self.farn = farn
+        self.type = 1
         super.init(endPos: endPos, currPos: currPos, img: "strel-creat")
     }
     required init?(coder aDecoder: NSCoder) {
