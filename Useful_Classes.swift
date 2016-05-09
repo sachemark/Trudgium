@@ -35,4 +35,16 @@ class line {
         c = p1.x * p2.y - p2.x * p1.y
     }
 }
-
+class segment {
+    var a = CGP(x: 0, y: 0)
+    var b = CGP(x: 0, y: 0)
+    var length = CGF(0)
+    init(a: CGP, b: CGP) {
+        self.a = a
+        self.b = b
+        length = dist(a, b: b)
+    }
+    func inside(p: CGP) -> Bool {
+        return abs(dist(a, b: p) + dist(b, b: p) - length) < CGF(0.0001)
+    }
+}

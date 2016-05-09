@@ -26,7 +26,9 @@ func l_isect(lin1 : line, lin2 : line) -> CGP {
     return CGP(x: x, y: y)
 } // intersection of 2 lines
 
-
+func dist(a: CGP, b: CGP) -> CGF {
+    return sqrt(pow(abs(a.x - b.x), 2) + pow(abs(a.y - b.y), 2))
+}
 
 
 

@@ -11,16 +11,79 @@ import SpriteKit
 
 class Cell : SKSN {
     
-//    var a, b : Int
-    var num : Int
-    var type : Int = 0
-    var isK : Bool = false
+    var a = 0, b = 0
+    var num = 0
+    var type  = 0
+    var isK = false
     
-
+    var dl = CGP(x: 0, y: 0)
+    var dr = CGP(x: 0, y: 0)
+    var ul = CGP(x: 0, y: 0)
+    var ur = CGP(x: 0, y: 0)
+    
+    func afterInit() {
+        anchorPoint = CGP(x: 0, y: 0)
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        dl = position
+        dr = CGP(x: position.x + CGF(AppDelegate.Scene!.fieldX), y: position.y)
+        ul = CGP(x: position.x, y: position.y + CGF(AppDelegate.Scene!.fieldX))
+        ur = CGP(x: position.x + CGF(AppDelegate.Scene!.fieldX), y: position.y + CGF(AppDelegate.Scene!.fieldX))
+        switch type {
+            case 1: zPosition = 2
+            case 2: zPosition = 4
+            default: zPosition = 0
+        }
+    }
+    
     init() {
-        
-        num = -1
-        
         let text = SKT(imageNamed: "empty")
         super.init(texture: text, color: UIC.clearColor(), size: text.size())
     }
@@ -28,28 +91,22 @@ class Cell : SKSN {
         
         self.num = num
         self.type = type
+        self.a = num % AppDelegate.Scene!.fieldX  // depends
+        self.b = num / AppDelegate.Scene!.fieldX //
         
-        var img : String = "fl"
-        
+        var img : String = "standart-cell"
         switch type {
-            case 0:
-                img = "fl"
             case 1:
                 img = "lava"
                 isK = true
             case 2:
                 img = "wall-cell"
-            case 3:
-                img = "dark"
-            case 4:
-                img = "fog"
             default: break
         }
         
         let text = SKT(imageNamed: img)
         super.init(texture: text, color: UIC.clearColor(), size: text.size())
-        anchorPoint = CGP(x: 0, y: 0)
-        type == 0 ? zPosition = 0 : (zPosition = 1)
+        afterInit()
     }
     required init(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")

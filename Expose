@@ -1,0 +1,92 @@
+
+
+
+barriers types:
+
+-1 - not created
+0 - standart wall
+1 - door
+
+cell types:
+
+0 - standart cell
+1 - killing cell
+2 - wall cell
+
+zPositions:
+
+0 - standart cell
+1 - buttons
+2 - killing cells
+3 - doors
+4 - walls and wall cells
+
+6 - creatures
+
+10 - black wrap
+9 - semi-transparent wrap
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

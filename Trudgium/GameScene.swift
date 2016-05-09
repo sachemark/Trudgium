@@ -22,6 +22,10 @@ class GameScene: SKScene {
     var startCell : Int
     var ws = [pr(a: 7, b: 25), pr(a: 8, b: 26), pr(a: 9, b: 27), pr(a: 24, b: 25), pr(a: 27, b: 28), pr(a: 42, b: 43), pr(a: 43, b: 44), pr(a: 44, b: 45), pr(a: 45, b: 46), pr(a: 46, b: 47), pr(a: 47, b: 29), pr(a: 48, b: 30), pr(a: 58, b: 59), pr(a: 59, b: 41), pr(a: 59, b: 60), pr(a: 60, b: 61), pr(a: 61, b: 62), pr(a: 62, b: 63), pr(a: 64, b: 46), pr(a: 67, b: 49), pr(a: 68, b: 50), pr(a: 77, b: 59), pr(a: 78, b: 60), pr(a: 78, b: 79), pr(a: 80, b: 62), pr(a: 81, b: 63), pr(a: 82, b: 64), pr(a: 83, b: 65), pr(a: 84, b: 66), pr(a: 85, b: 67), pr(a: 85, b: 86), pr(a: 86, b: 87), pr(a: 95, b: 77), pr(a: 95, b: 96), pr(a: 97, b: 79), pr(a: 98, b: 99), pr(a: 102, b: 103), pr(a: 103, b: 85), pr(a: 104, b: 105), pr(a: 114, b: 96), pr(a: 114, b: 115), pr(a: 115, b: 97), pr(a: 117, b: 99), pr(a: 117, b: 118), pr(a: 118, b: 119), pr(a: 119, b: 101), pr(a: 120, b: 102), pr(a: 121, b: 122), pr(a: 122, b: 104), pr(a: 128, b: 129), pr(a: 129, b: 111), pr(a: 130, b: 112), pr(a: 131, b: 113), pr(a: 131, b: 132), pr(a: 132, b: 133), pr(a: 134, b: 116), pr(a: 135, b: 136), pr(a: 136, b: 137), pr(a: 137, b: 138), pr(a: 138, b: 120), pr(a: 139, b: 121), pr(a: 147, b: 129), pr(a: 148, b: 130), pr(a: 148, b: 149), pr(a: 149, b: 150), pr(a: 151, b: 133), pr(a: 151, b: 152), pr(a: 152, b: 153), pr(a: 153, b: 135), pr(a: 154, b: 155), pr(a: 156, b: 138), pr(a: 157, b: 139), pr(a: 166, b: 167), pr(a: 167, b: 168), pr(a: 169, b: 170), pr(a: 170, b: 171), pr(a: 173, b: 155), pr(a: 173, b: 174), pr(a: 174, b: 175), pr(a: 175, b: 157), pr(a: 184, b: 185), pr(a: 185, b: 186), pr(a: 186, b: 187), pr(a: 187, b: 169), pr(a: 189, b: 171), pr(a: 191, b: 192), pr(a: 192, b: 193), pr(a:202 , b: 203), pr(a: 203, b: 204), pr(a: 204, b: 205), pr(a: 205, b: 206), pr(a: 206, b: 188), pr(a: 206, b: 207), pr(a: 207, b: 208), pr(a: 208, b: 209), pr(a: 209, b: 191), pr(a: 209, b: 210), pr(a: 210, b: 211), pr(a: 220, b: 221), pr(a: 222, b: 204), pr(a: 223, b: 224), pr(a: 227, b: 209), pr(a: 228, b: 210)]
     
+    
+    
+    
+    
     init(fX: Int, fY: Int, cS: CGF, sP : CGP, sz: CGSize) {
         fieldX = fX
         fieldY = fY
@@ -214,10 +218,7 @@ class GameScene: SKScene {
         
         field.players[field.currPlayer].active = true
         
-        print(field.walls[7][25].dl.x, field.walls[7][25].dl.y)
-        print(field.walls[7][25].dr.x, field.walls[7][25].dr.y)
-        print(field.walls[7][25].ul.x, field.walls[7][25].ul.y)
-        print(field.walls[7][25].ur.x, field.walls[7][25].ur.y)
+        
     }
 
     override func update(currentTime: NSTimeInterval) {

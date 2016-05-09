@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A4073EAD1CA2A6670011B3FC /* ActClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4073EAC1CA2A6670011B3FC /* ActClasses.swift */; };
+		A41B12701CC8FB0800A60585 /* Expose in Resources */ = {isa = PBXBuildFile; fileRef = A41B126F1CC8FB0800A60585 /* Expose */; };
 		A44860451C8C432400E40863 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44860441C8C432400E40863 /* AppDelegate.swift */; };
 		A44860471C8C432400E40863 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A44860461C8C432400E40863 /* GameScene.sks */; };
 		A44860491C8C432400E40863 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A44860481C8C432400E40863 /* GameScene.swift */; };
@@ -49,6 +50,7 @@
 
 /* Begin PBXFileReference section */
 		A4073EAC1CA2A6670011B3FC /* ActClasses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActClasses.swift; sourceTree = "<group>"; };
+		A41B126F1CC8FB0800A60585 /* Expose */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Expose; sourceTree = "<group>"; };
 		A44860411C8C432400E40863 /* Trudgium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trudgium.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A44860441C8C432400E40863 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A44860461C8C432400E40863 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 		A44860381C8C432400E40863 = {
 			isa = PBXGroup;
 			children = (
+				A41B126F1CC8FB0800A60585 /* Expose */,
 				A448607D1C8C441600E40863 /* Game classes */,
 				A44860761C8C436B00E40863 /* USEFUL */,
 				A44860431C8C432400E40863 /* Trudgium */,
@@ -172,13 +175,13 @@
 			isa = PBXGroup;
 			children = (
 				A448607E1C8C442C00E40863 /* Cells.swift */,
-				A44860801C8E26FD00E40863 /* Cache.swift */,
-				A44860821C8E270B00E40863 /* District.swift */,
 				A4BEEBF01C9294FA00EBA22B /* Barriers.swift */,
 				A4BEEBF41C92953C00EBA22B /* Creatures.swift */,
 				A4BEEBF61C92958900EBA22B /* GameField.swift */,
 				A4F7AF131C955580003C9B40 /* OverCells.swift */,
 				A4073EAC1CA2A6670011B3FC /* ActClasses.swift */,
+				A44860801C8E26FD00E40863 /* Cache.swift */,
+				A44860821C8E270B00E40863 /* District.swift */,
 			);
 			name = "Game classes";
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A41B12701CC8FB0800A60585 /* Expose in Resources */,
 				A44860471C8C432400E40863 /* GameScene.sks in Resources */,
 				A44860531C8C432400E40863 /* LaunchScreen.storyboard in Resources */,
 				A44860501C8C432400E40863 /* Assets.xcassets in Resources */,

@@ -93,11 +93,8 @@ class Door : Wall {
     override init(cell1 : Int, cell2 : Int, fX: Int, cS: CGF) {
         
         let img : String
-        if (cell1 / fX == cell2 / fX) {
-            img = "vert-door"
-        } else {
-            img = "hor-door"
-        }
+        if (cell1 / fX == cell2 / fX) { img = "vert-door" }
+        else { img = "hor-door" }
         super.init(cell1: cell1, cell2: cell2, img: img, fX: fX, cS: cS)
         type = 1
     }

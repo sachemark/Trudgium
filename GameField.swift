@@ -38,6 +38,7 @@ class Field {
     func addPlayer(num: Int) {
         
         let pl = Player(currPos: num)
+        pl.anchorPoint = CGP(x: 0, y: 0)
         pl.position = CGP(x: CGF(num % fieldX) * cellSize + 24, y: CGF(num / fieldX) * cellSize + 24)
         players.append(pl)
         AppDelegate.Scene!.addChild(pl)
@@ -55,7 +56,7 @@ class Field {
         let cl = Cell(num: num, type: type)
         cl.position = CGP(x: CGF(num % fieldX) * cellSize, y: CGF(num / fieldX) * cellSize)
         if type == 3 || type == 4 {
-            cl.zPosition = 10
+            cl.zPosition = -10
             wraps[num] = cl
         } else {
             cells[num] = cl
@@ -94,6 +95,7 @@ class Field {
     }
     func revealCells(pl: Player) {
         
+
     } // Creates Visible area
         
     

@@ -15,21 +15,25 @@ class Creat: SKSN {
     var prevPos = 0
     var stPos = 0
     var endPos = 0
-    var dir = 0
-    var rad = 2
-    var spd = NSTimeInterval(0.3) // speed of creat
+    var dir = 0  // direction
+    var rad = 2 // radius of visibility
+    var spd = NSTimeInterval(0.1) // speed of creat (seconds per cell)
     var active = true
     
+<<<<<<< Updated upstream
     var type = -1 // MrGeorgeous Commit 2/5/16
     
     func bSet() {
+=======
+    func afterInit() {
+>>>>>>> Stashed changes
         anchorPoint = CGP(x: 0, y: 0)
-        zPosition = 4
+        zPosition = 16
     }
     init() {
         let text = SKT(imageNamed: "empty")
         super.init(texture: text, color: UIC.clearColor(), size: text.size())
-        bSet()
+        afterInit()
     }
     init(endPos: Int, currPos: Int) {
         
@@ -39,7 +43,7 @@ class Creat: SKSN {
         
         let text = SKT(imageNamed: "creat")
         super.init(texture: text, color: UIC.clearColor(), size: text.size())
-        bSet()
+        afterInit()
     }
     init(currPos: Int, img: String) {
         
@@ -47,7 +51,7 @@ class Creat: SKSN {
         
         let text = SKT(imageNamed: img)
         super.init(texture: text, color: UIC.clearColor(), size: text.size())
-        bSet()
+        ()
     }
     init(endPos: Int, currPos: Int, img: String) {
         
@@ -57,7 +61,7 @@ class Creat: SKSN {
         
         let text = SKT(imageNamed: img)
         super.init(texture: text, color: UIC.clearColor(), size: text.size())
-        bSet()
+        afterInit()
     }
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
