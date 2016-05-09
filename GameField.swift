@@ -102,7 +102,7 @@ class Field {
     
     
     func preSet() {
-        for (var i = 0; i < fieldX * fieldY; ++i) {
+        for (var i = 0; i < fieldX * fieldY; i++) {
             addCell(i, type: 3)
             if (i % fieldX == fieldX - 1 || i % fieldX == 0 || i / fieldX == 0 || i / fieldX == fieldY - 1) {
                 addCell(i, type: 2)

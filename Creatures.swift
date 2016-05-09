@@ -20,16 +20,18 @@ class Creat: SKSN {
     var spd = NSTimeInterval(0.1) // speed of creat (seconds per cell)
     var active = true
     
-<<<<<<< Updated upstream
+
     var type = -1 // MrGeorgeous Commit 2/5/16
     
     func bSet() {
-=======
+    }
+    
     func afterInit() {
->>>>>>> Stashed changes
+
         anchorPoint = CGP(x: 0, y: 0)
         zPosition = 16
     }
+        
     init() {
         let text = SKT(imageNamed: "empty")
         super.init(texture: text, color: UIC.clearColor(), size: text.size())
@@ -89,7 +91,7 @@ class StrelCreat: Creat {
     
     init(farn: CGF, endPos: Int, currPos: Int) {
         self.farn = farn
-        self.type = 1
+        
         super.init(endPos: endPos, currPos: currPos, img: "strel-creat")
     }
     required init?(coder aDecoder: NSCoder) {

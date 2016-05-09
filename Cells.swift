@@ -24,54 +24,6 @@ class Cell : SKSN {
     func afterInit() {
         anchorPoint = CGP(x: 0, y: 0)
         
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
         dl = position
         dr = CGP(x: position.x + CGF(AppDelegate.Scene!.fieldX), y: position.y)
         ul = CGP(x: position.x, y: position.y + CGF(AppDelegate.Scene!.fieldX))
